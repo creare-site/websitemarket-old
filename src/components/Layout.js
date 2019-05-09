@@ -204,8 +204,8 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          &copy; WebsiteMarket - Creare Site <br />
-          <a href="https://github.com/vreau-website/websitemarket/">Surse</a> <br />
+          &copy; WebsiteMarket - Blog de Tehnologie  <br />
+          <a href="https://github.com/vreau-website/websitemarket/">Surse</a> - <a href="https://www.facebook.com/Websitemarketro">Facebook</a>
         </Footer>
       </>
     </ThemeProvider>

@@ -43,6 +43,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "deploy": "gatsby build && node deploy",
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
