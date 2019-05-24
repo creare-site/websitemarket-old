@@ -4,7 +4,7 @@
       <header class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto text-center px-6 pt-24">
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-sans font-bold mb-1">Despre</h1>
         <p class="text-grey-dark text-lg sm:text-3xl">
-          Proiect oferit de <a class="underline" href="https://simpllo.com">Simpllo</a>
+          Proiect oferit de <a target="_blank" class="underline" href="https://simpllo.com">Simpllo</a>
         </p>
       </header>
       <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
