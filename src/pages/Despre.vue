@@ -16,7 +16,7 @@
           <p>Vrei sa ne contactezi? Trimite un mail la adresa <code class="shiki-inline">hello @ websitemarket.ro</code></p>
           <hr>
           <p class="font-bold">Hai pe net. Acum este simplu!</p>
-          <p>Daca te intrebi de ce acest blog .. este un pic altfel, motivele le enumeram mai jos:
+          <p>In caz ca te intrebi de ce acest blog .. este un pic altfel:
           <br/><br/>
           <ul class="list-disc">
             <li>Nu este <span class="font-bold">Wordpress</span></li>
