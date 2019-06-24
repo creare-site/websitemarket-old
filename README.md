@@ -1,12 +1,10 @@
-## [Admin Dashboards](https://admin-dashboards.com)
+## [WebsiteMarket](https://websitemarket.ro) - Site-uri de prezentare in tehnologii moderne
 
-A curated list with admin dashboards/visualization resources. Open-Source Project.
+Agentie de webdesign din Constanta. 
 
-### How to use
+### Produse
  
- - Make a pull request, with your dashbord added in the [posts](https://github.com/admin-dashboards/dashboards/tree/master/content/posts) directory
- - The app will be published after review
+ - Site Clinica Dentara: [surse](https://github.com/creare-site/clinica-dentara), live [demo](https://github.com/creare-site/clinica-dentara), informatii [produs](https://websitemarket.ro/creare-site/clinica-dentara)
 
 ---
-Built in [GatsbyJS](https://www.gatsbyjs.org) by [Sm0ke](https://dev.to/sm0ke)
-
+Website generat in [GatsbyJS](https://www.gatsbyjs.org)
