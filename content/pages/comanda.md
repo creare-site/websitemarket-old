@@ -8,10 +8,9 @@ description: "ce este WebsiteMarket si ce isi propune"
 ---
  
 WebsiteMarket este o agentie de webdesign, cu sediul in Constanta care isi propune sa ajute 
-firmele mici sa se promoveze in mediul online cu un buget redus. 
+firmele mici sa se promoveze in mediul online. 
 Lista serviciilor oferite de WebsiteMarket o gasiti mai jos.
 
-## Preturi 
  - Hosting: 1.99Euro / luna
  - Cod sursa website: 29Euro - Nu include editarea textelor, pozelor
  - Website prezentare: 99Euro - Include domeniu, hosting 1an si editare poze si texte
