@@ -1,4 +1,4 @@
-## [WebsiteMarket](https://websitemarket.ro)
+## [WebsiteMarket.ro](https://websitemarket.ro)
 
 Site-uri de prezentare. Servicii Hosting. Consultanta
 
@@ -24,4 +24,4 @@ Email: hello @ websitemarket.ro
 <br />
 
 ---
-[WebsiteMarket](https://websitemarket.ro) - proiect open-source. Generat in [GatsbyJS](https://www.gatsbyjs.org)
+[WebsiteMarket.ro](https://websitemarket.ro) - proiect open-source. Generat in [GatsbyJS](https://www.gatsbyjs.org)
