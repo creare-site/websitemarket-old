@@ -1,11 +1,12 @@
-node_modules/
-flow-typed/
-.cache/
-public/
-npm-debug.log
-.eslintcache
-.gatsby-context.js
-.idea
-gatsby-starter-lumen.iml
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build directory
+/public
+.DS_Store
 deploy.js
-deploy.js
+

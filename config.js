@@ -1,31 +1,31 @@
-'use strict';
-
 module.exports = {
-  url: 'https://websitemarket.ro',
-  title: 'WebsiteMarket',
-  subtitle: 'Creare site de prezentare. Servicii Hosting. Consultanta.',
-  copyright: '© WebsiteMarket',
-  disqusShortname: '',
-  postsPerPage: 5,
-  googleAnalyticsId: '',
-  menu: [
+  siteTitle: 'WebsiteMarket - Site-uri de Prezentare', // <title>
+  manifestName: 'Phantom',
+  manifestShortName: 'Landing', // max 12 characters
+  manifestStartUrl: '/',
+  manifestBackgroundColor: '#663399',
+  manifestThemeColor: '#663399',
+  manifestDisplay: 'standalone',
+  manifestIcon: 'src/assets/img/website-icon.svg',
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Anubhav Srivastava',
+  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  // social
+  socialLinks: [
     {
-      label: 'Home',
-      path: '/'
+      icon: 'fa-github',
+      name: 'Github',
+      url: 'https://github.com/creare-site/websitemarket',
     },
     {
-      label: 'Comanda Servicii',
-      path: '/comanda'
-    }
+      icon: 'fa-twitter',
+      name: 'Twitter',
+      url: 'https://twitter.com/websitemarketro',
+    },
+    {
+      icon: 'fa-facebook',
+      name: 'Facebook',
+      url: 'https://www.facebook.com/Websitemarketro/',
+    },
   ],
-  author: {
-    name: 'WebsiteMarket',
-    photo: '/photo.jpg',
-    bio: 'Creare site de prezentare. Servicii Hosting. Consultanta.',
-    contacts: {
-      email: 'hello@websitemarket.ro',
-      twitter: 'websitemarketro',
-      github: 'creare-site/websitemarket'
-    }
-  }
 };
