@@ -4,6 +4,10 @@ Site-uri de prezentare. Servicii Hosting. Consultanta
 
 <br />
 
+![WebsiteMarket - Gif animated intro.](https://raw.githubusercontent.com/creare-site/static/master/common/websitemarket-intro.gif)
+
+<br />
+
 ## Site-uri de prezentare
  
  - [Site Portofoliu](https://site-portofoliu.websitemarket.ro/)
