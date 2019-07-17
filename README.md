@@ -19,7 +19,7 @@ Site-uri de prezentare. Servicii Hosting. Consultanta
 
 ## Contact 
   
-Email: hello @ websitemarket.ro
+Email: **hello @ websitemarket.ro** & LIVE pe [Discord](https://discord.gg/MFRQmAk)
 
 <br />
 
