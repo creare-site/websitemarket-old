@@ -10,16 +10,20 @@ Site-uri de prezentare. Servicii Hosting. Consultanta
 
 ## Site-uri de prezentare
  
- - [Site Portofoliu](https://site-portofoliu.websitemarket.ro/)
  - [Site cazare](https://cazare-mamaia-nord.websitemarket.ro/)
  - [Site Clinica Dentara](https://site-clinica-dentara.websitemarket.ro/)
+ - [Site Portofoliu](https://site-portofoliu.websitemarket.ro/)
  - [Site Prezentare Afacere](https://site-prezentare-afacere.websitemarket.ro/)
+ - [Site Prezentare Dimension](https://site-prezentare-dimension.websitemarket.ro/)
+ - [Site Prezentare Speed](https://site-prezentare-speed.websitemarket.ro/)
+ - [Site Prezentare Directive](https://site-prezentare-directive.websitemarket.ro/)
+ - [Site Prezentare Grayscale](https://site-prezentare-grayscale.websitemarket.ro/)
 
 <br />
 
 ## Contact 
   
-Email: **hello @ websitemarket.ro** & LIVE pe [Discord](https://discord.gg/MFRQmAk)
+Email: **hello [ @ ] websitemarket.ro** & LIVE pe [Discord](https://discord.gg/MFRQmAk)
 
 <br />
 
