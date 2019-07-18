@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import TopNav from './TopNav';
 import { Link } from 'gatsby';
-import logo from '../assets/img/website-icon.svg';
+import logo from '../assets/img/logo.jpg';
 export default function SideBar({ sections = [] }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (

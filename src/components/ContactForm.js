@@ -4,7 +4,8 @@ export default function ContactForm() {
     <section>
       <h2>Contact</h2>
       <p>
-        <a href="mailto:hello@websitemarket.ro"> hello [ @ ] websitemarket.ro </a>
+        <a href="mailto:hello@websitemarket.ro"> hello [ @ ] websitemarket.ro </a> 
+        sau LIVE pe <strong><a href="https://discord.gg/MFRQmAk">Discord</a></strong>
       </p>
     </section>
   );
