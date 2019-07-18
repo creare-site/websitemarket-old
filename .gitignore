@@ -11,3 +11,4 @@ yarn.lock
 deploy.js
 
 *.psd
+config.bat
