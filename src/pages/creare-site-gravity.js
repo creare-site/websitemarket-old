@@ -8,12 +8,12 @@ const IndexPage = () => (
       <div className="inner">
 
         <h1>
-            <a href="https://site-prezentare-afacere.websitemarket.ro/">Creare Site Afacere</a>
+            <a href="https://creare-site-gravity.websitemarket.ro/">Creare Site Gravity</a>
         </h1>
       
         <span className="image main">
-            <img alt="Creare Site cu design Afacere. Un produs WebsiteMarket."
-                 src="https://raw.githubusercontent.com/creare-site/static/master/produse/creare-site-afacere-intro.gif"/>
+            <img alt="Creare Site cu design Gravity. Un produs WebsiteMarket."
+                 src="https://raw.githubusercontent.com/creare-site/static/master/produse/creare-site-gravity-intro.gif"/>
         </span>
         
         <p>
@@ -24,8 +24,8 @@ const IndexPage = () => (
         <hr />
 
         <p>
-            <b><a href="https://site-prezentare-afacere.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-prezentare-afacere">codul sursa</a></b> (pentru dezvoltatori).  
+            <b><a href="https://creare-site-gravity.websitemarket.ro/">Live demo</a></b>{' '} 
+            - <b><a href="https://github.com/creare-site/creare-site-gravity">codul sursa</a></b> (pentru dezvoltatori).  
 
             <br />
 
