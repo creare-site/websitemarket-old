@@ -12,24 +12,25 @@ const IndexPage = () => (
             <div className="inner">
 
                 <h1>
-                    Creare Site Web
+                    Creare <a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a>
                 </h1>
 
                 <p>
-                    Proiectul <b>WebsiteMarket</b> a luat nastere din dorinta de a ajuta antreprenorii aflati la inceputde drum sa se promoveze in mediul online.
+                    Proiectul <b>WebsiteMarket</b> a luat nastere din dorinta de a ajuta antreprenorii aflati la inceput 
+                    de drum sa se promoveze in mediul online.
                     Pentru a putea atinge acest scop, utilizam tehnologii moderne care ne permit o livrare rapida produselor, 
                     care sunt in ce mai mare parte, website-uri simple de prezentare cu un design distint si minimalist. 
                     <br />
-                    Pe langa website-uri, <b>oferim clientilor si servicii de hosting si consultanta</b> in alegerea produselor care se apropie cel mai mult 
-                    de nevoile lor.   
+                    Pe langa website-uri, <b>oferim clientilor si servicii de hosting si consultanta</b> in alegerea produselor 
+                    care se apropie cel mai mult de nevoile lor.   
                     <br /> 
-                    Revenind la subiectul acestei pagini, prezentam mai jos cateva optiuni actuale de creare a unui site web prin diferite metode: editare vizuala, 
-                    utlizand un software dedicat (Wordpress, Drupal) sau apeland la o agentie.
+                    Revenind la subiectul acestei pagini, prezentam mai jos cateva optiuni actuale de creare a unui site web prin diferite metode: 
+                    editare vizuala, utlizand un software dedicat (Wordpress, Drupal) sau apeland la o agentie.
                 </p>
 
                 <hr />
 
-                <h2>Creare Site - Editare Vizuala</h2>
+                <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a> - Editare Vizuala</h2>
 
                 <p>
                 Cel mai rapid mod de creare a uni site web este utilizarea unei platforme care permite editare si publicarea automata 
@@ -43,7 +44,7 @@ const IndexPage = () => (
 
                 <hr />
 
-                <h2>Creare Site - Utilizand software dedicat</h2>
+                <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a> - Utilizand software dedicat</h2>
 
                 <p>
                 Daca editarea vizuala a unui site, nu este o optiunie, platforme gen Wordpress, Drupal va pot ajuta sa aveti un website 
@@ -62,7 +63,7 @@ const IndexPage = () => (
 
                 <hr />
 
-                <h2>Creare Site - Apeland la o Agentie WEB</h2>
+                <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a> - Apeland la o Agentie WEB</h2>
 
                 <p>
                 Aceasta varianta de creare a unui website este indicata daca detineti un buget mai generos. 
@@ -76,7 +77,7 @@ const IndexPage = () => (
 
                 <hr />
 
-                <h2>Creare Site - Oferta Websitemarket</h2>
+                <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a> - Oferta Websitemarket</h2>
 
                 <p>
                 <b>WebsiteMarket</b> intra pe piata de web design din Romania cu o abordare diferita. 
@@ -95,7 +96,7 @@ const IndexPage = () => (
                     </span>
                     
                     <h3> <a href="https://creare-site-lens.websitemarket.ro/">Creare Site Lens</a> </h3>
-                    <b>Lens</b> este ultimul design disponibil in galeria site-urilor de prezentare. 
+                    <b>Lens</b> este ultimul design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare. 
                     Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
                     Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
                     <br />
@@ -117,7 +118,7 @@ const IndexPage = () => (
                     
                     <h3> <a href="https://creare-site-reflex.websitemarket.ro/">Creare Site Reflex</a> </h3>
                     <b>Reflex</b> este un design simplu si cu un layout impecabil pe orice dispozitiv. 
-                    Utilizand acest design, iti putem crea un site care te poate ajuta sa devii vizbil in mediul online in doar cateva ore.
+                    Utilizand acest design, iti putem crea un <a href="https://ro.wikipedia.org/wiki/Site_web">site web</a> care te poate ajuta sa devii vizbil in mediul online in doar cateva ore.
                     <br />
                     <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>{' '} 
                     - <b><a href="https://github.com/creare-site/creare-site-lens">codul sursa</a></b> (pentru dezvoltatori).  
