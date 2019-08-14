@@ -48,7 +48,10 @@ const IndexPage = () => (
           </h1>
           <p>
           WebsiteMarket este o agentie de webdesign, cu sediul in Constanta care isi propune sa ajute firmele mici sa se promoveze in mediul online.
-          <br />Servicii: <strong>Site prezentare - 99Euro</strong> (pret unic). <strong>Hosting 2Euro</strong> / luna.
+          <br />Afla de ce suntem diferiti prin ceea si cum iti putem <b><a href="/creare-site-web">crea un site web</a></b> modern in cateva ore. 
+
+          <br /><br />
+          Servicii: <strong>Site prezentare - 99Euro</strong> (pret unic). <strong>Hosting 2Euro</strong> / luna.
           <br />Email contact:  <strong> <a href="mailto:hello@websitemarket.ro"> hello [ @ ] websitemarket.ro </a> </strong>
           </p>
         </header>
@@ -62,7 +65,7 @@ const IndexPage = () => (
                 <img src={intro_lens} alt="Creare Site, Lens design - Un produs Websitemarket" />
               </span>
               
-              <h2> <a href="https://creare-site-lens.websitemarket.ro/">Site Prezentare</a> - Lens</h2>
+              <h2> <a href="/creare-site-lens">Site Prezentare</a> - Lens</h2>
               <b>Lens</b> este ultimul design disponibil in galeria site-urilor de prezentare. 
               Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
               Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
@@ -375,7 +378,7 @@ const IndexPage = () => (
               <span className="image">
                 <img src={pic4} alt="Site Portofoliu - Oferit de WebsiteMarket" />
               </span>
-              <a href="/creare-site-portofoliu">
+              <a href="/site-portofoliu">
                 <h2>Site Portofoliu</h2>
                 <div className="content">
                   <p>
