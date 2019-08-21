@@ -11,67 +11,17 @@ const IndexPage = () => (
       <div className="inner">
 
         <h1>
-          Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> <a href="https://ro.wikipedia.org/wiki/Bucuresti">Bucuresti</a>
+          Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> 
         </h1>
 
         <p>
-          Daca locuiesti in <b>Bucuresti</b> si desfasori o activitate care are nevoie de un <b><a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a></b>{' '} 
-          acest articol te poate ajuta sa te informezi in aceasta directie. 
-          <br />
-          Un <b><a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a></b>, poate fi privit ca o carte de vizita, in varianta moderna. 
-          Oricine cu access la internet poate afla informatii relevante despre tine si afacerea ta fara ca tu sa intervii. 
-          Pentru a fi util, un site web trebuie sa ofere informatia intr-un format simplu, coerent si usor de parcurs si citit de catre audienta tinta.
-          <br />
-          In acest articol, iti prezentam pasii necesari pentru creare unui site cat mai potrivit afacerii tale.
+          Daca ai deja o afacere sau intentionezi sa iti deschizi una in viitorul apropiat si ai nevoie de un Site web, 
+          acest articol te poate ajuta sa te informezi in legatura cu designul viitorului tau website. 
         </p>
 
         <hr />
 
-        <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> - Alegerea Domeniului</h2>
-
-        <p>
-        Cand alegem domeniul pentru viitorul nostru site, va trebui sa avem in vedere, cateva criterii simple:
-          <ul>
-            <li>Nume sugestiv, evident sa fie disponibil.</li>
-            <li>Cat mai simplu si usor de retinut.</li>
-            <li>Preferabil scurt si in legatura cu domeniul de activitate</li>
-          </ul>
-          Pentru a exemplificat, vom prezenta o lista scurta de domenii care indeplinest aceste criterii:
-          <ul>
-            <li> <b>eMag.ro</b> aici nu este nevoie de nici un fel de introducere. 
-            Chiar daca auzi pentru prima data de acest domeniu, sunt sanse destul de mari sa te gandesti la o activitate de eCommerce
-            </li>
-            <li> <b>Olx.ro</b> - acest nume de domeniu este super usor de retinut, fiind scurt si un cuvant nou care este 
-            asociat doar cu serviciul oferit de platforma de anunturi
-            </li>
-          </ul>
-          In cazul viitorului tau site, sfatul nostru este sa nu te grabesti cand vine vorba de alegerea domeniului pentru site-ul tau. 
-          La baza, este o activitate creativa si nu te sfii sa iti intrebi si prietenii daca au vreo idee sau sugestie. 
-          In caz ca vrei o parere si de la noi, nu ezita sa ne ceri parerea trimitand un email la adresa specificata in subsolul acestei pagini.
-        </p>
-        
-        <hr />
-
-        <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> - Alegerea Platformei</h2>
-
-        <p>
-          Daca avem numele domeniului, urmatorul pas este sa ne decidem ce tehnologii vom folosi pentru a ne construi site-ul.
-          Tehnologia a evoluat destul de mult si partea buna este ca putem alege ceva ce e potrivit pentru fiecare caz in parte. 
-          De exemplu, daca avem nevoie doar de un blog pentru a comunica cu clientii nostri, site-ul nostru poate fi o plaforma de blog cum ar fi{' '}
-          <b>Wordpress</b> sau <b>Ghost</b>.  
-          <br />
-          Daca ai nevoie de un site rapid, poate crearea unuia folosind <b>Wix</b> poate fi o alegere buna. 
-          Cu un pic de efort, il poti crea singur in cateva ore fara nici un cost. 
-          <br /> 
-          In cazul in care beneficiezi de un buget si site-ul va prezenta o afacere pe care vrei sa o cresti in ani, poate fi o idee buna sa colaborezi 
-          cu o agentie web ( cum este si WebsiteMarket ) pentru a obtine un produs de o calitate superioara. 
-          De exemplu, poti vizualiza mai jos cateva modele de <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> pentru viitoarea ta afacere 
-          care isi va desfasura activitatea in centrul <b>Bucurestiului</b>
-        </p>
-
-        <hr />
-
-        <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> - Exemple</h2>
+        <h2> Exemple de <a href="https://ro.wikipedia.org/wiki/Site_web">site</a></h2>
 
         <div className="row">
         <section>

@@ -11,11 +11,11 @@ const IndexPage = () => (
       <div className="inner">
 
         <h1>
-          Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> <a href="https://ro.wikipedia.org/wiki/Bucuresti">Bucuresti</a>
+          Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> <a href="https://ro.wikipedia.org/wiki/Pitesti">Pitesti</a>
         </h1>
 
         <p>
-          Daca locuiesti in <b>Bucuresti</b> si desfasori o activitate care are nevoie de un <b><a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a></b>{' '} 
+          Daca locuiesti in <b>Pitesti</b> si desfasori o activitate care are nevoie de un <b><a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a></b>{' '} 
           acest articol te poate ajuta sa te informezi in aceasta directie. 
           <br />
           Un <b><a href="https://ro.wikipedia.org/wiki/Site_web">Site Web</a></b>, poate fi privit ca o carte de vizita, in varianta moderna. 

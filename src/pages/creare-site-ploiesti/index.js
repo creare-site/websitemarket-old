@@ -11,7 +11,7 @@ const IndexPage = () => (
       <div className="inner">
 
         <h1>
-          Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> <a href="https://ro.wikipedia.org/wiki/Bucuresti">Bucuresti</a>
+          Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> <a href="https://ro.wikipedia.org/wiki/Ploiesti">Ploiesti</a>
         </h1>
 
         <p>
