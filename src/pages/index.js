@@ -82,6 +82,62 @@ const IndexPage = () => (
         <div className="row">
           <section className="tiles">
 
+            <article className="style6">
+              <span className="image">
+                <img src={site_elemental} alt="Site Medical Elemental - oferit de WebsiteMarket" />
+              </span>
+              <a href="https://site-medical-elemental.websitemarket.ro/">
+                <h2>Site Medical Elemental</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style1">
+              <span className="image">
+                <img src={site_hyperbolic} alt="Site Medical Hyperbolic - oferit de WebsiteMarket" />
+              </span>
+              <a href="https://site-medical-hyperbolic.websitemarket.ro/">
+                <h2>Site Medical Hyperbolic</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style2">
+              <span className="image">
+                <img src={site_reflex} alt="Site Medical Reflex - oferit de WebsiteMarket" />
+              </span>
+              <a href="https://site-medical-reflex.websitemarket.ro/">
+                <h2>Site Medical Reflex</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style3">
+              <span className="image">
+                <img src={site_story} alt="Site Medical Story - oferit de WebsiteMarket" />
+              </span>
+              <a href="https://site-medical-story.websitemarket.ro/">
+                <h2>Site Medical Story</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
             <article className="style4">
               <span className="image">
                 <img src={site_split_screen} alt="Site Coming Soon - oferit de WebsiteMarket" />
