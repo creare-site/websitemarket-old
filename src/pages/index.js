@@ -82,6 +82,48 @@ const IndexPage = () => (
         <div className="row">
           <section className="tiles">
 
+            <article className="style3">
+              <span className="image">
+                <img src={site_lens} alt="Site Fotografie Lens - oferit de WebsiteMarket" />
+              </span>
+              <a href="https://site-fotografie-lens.websitemarket.ro/">
+                <h2>Site Fotografie Lens</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style4">
+              <span className="image">
+                <img src={site_story} alt="Site Restaurant Story - oferit de WebsiteMarket" />
+              </span>
+              <a href="https://site-restaurant-story.websitemarket.ro/">
+                <h2>Site Restaurant Story</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style5">
+              <span className="image">
+                <img src={site_reflex} alt="Site Restaurant Reflex - oferit de WebsiteMarket" />
+              </span>
+              <a href="https://site-restaurant-reflex.websitemarket.ro/">
+                <h2>Site Restaurant Reflex</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
             <article className="style6">
               <span className="image">
                 <img src={site_elemental} alt="Site Medical Elemental - oferit de WebsiteMarket" />
