@@ -35,6 +35,10 @@ import site_elemental    from '../assets/images/creare-site-elemental.jpg';
 import site_gravity      from '../assets/images/creare-site-gravity.jpg';
 import site_optics       from '../assets/images/creare-site-optics.jpg';
 
+import site_soon_fitness    from '../assets/images/site-fitness-coming-soon.jpg';
+import site_soon_medical    from '../assets/images/site-medical-coming-soon.jpg';
+import site_soon_restaurant from '../assets/images/site-restaurant-coming-soon.jpg';
+
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -81,6 +85,48 @@ const IndexPage = () => (
         
         <div className="row">
           <section className="tiles">
+
+            <article className="style6">
+              <span className="image">
+                <img src={site_soon_fitness} alt="Site Fitness - Coming Soon" />
+              </span>
+              <a href="https://site-fitness-coming-soon.websitemarket.ro/">
+                <h2>Site Fitness - Coming Soon</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style1">
+              <span className="image">
+                <img src={site_soon_restaurant} alt="Site Restaurant - Coming Soon" />
+              </span>
+              <a href="https://site-restaurant-coming-soon.websitemarket.ro/">
+                <h2>Site Restaurant - Coming Soon</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style2">
+              <span className="image">
+                <img src={site_soon_medical} alt="Site Medical - Coming Soon" />
+              </span>
+              <a href="https://site-medical-coming-soon.websitemarket.ro/">
+                <h2>Site Medical - Coming Soon</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
 
             <article className="style3">
               <span className="image">
