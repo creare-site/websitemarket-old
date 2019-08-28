@@ -39,6 +39,10 @@ import site_soon_fitness    from '../assets/images/site-fitness-coming-soon.jpg'
 import site_soon_medical    from '../assets/images/site-medical-coming-soon.jpg';
 import site_soon_restaurant from '../assets/images/site-restaurant-coming-soon.jpg';
 
+import site_foto_multiverse     from '../assets/images/site-fotografie-multiverse.jpg';
+import site_fitness_parallelism from '../assets/images/site-fitness-parallelism.jpg';
+import site_fitness_ethereal    from '../assets/images/site-fitness-ethereal.jpg';
+
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -85,6 +89,48 @@ const IndexPage = () => (
         
         <div className="row">
           <section className="tiles">
+
+            <article className="style3">
+              <span className="image">
+                <img src={site_soon_fitness} alt="Site Fotografie - Multiverse Design" />
+              </span>
+              <a href="https://site-fotografie-multiverse.websitemarket.ro/">
+                <h2>Site Fotografie - Multiverse</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style4">
+              <span className="image">
+                <img src={site_fitness_parallelism} alt="Site Fitness - Design Parallelism " />
+              </span>
+              <a href="https://site-fitness-parallelism.websitemarket.ro/">
+                <h2>Site Fitness - Parallelism </h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style5">
+              <span className="image">
+                <img src={site_fitness_ethereal} alt="Site Fitness - Ethereal Design" />
+              </span>
+              <a href="https://site-fitness-ethereal.websitemarket.ro/">
+                <h2>Site Fitness - Ethereal</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
 
             <article className="style6">
               <span className="image">
