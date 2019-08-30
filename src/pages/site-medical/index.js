@@ -7,6 +7,7 @@ import intro_hyperbolic from '../../assets/images/site-medical-hyperbolic-intro.
 import intro_reflex     from '../../assets/images/site-medical-reflex-intro.gif';
 import intro_story      from '../../assets/images/site-medical-story-intro.gif';
 import intro_clinica    from '../../assets/images/creare-site-clinica-dentara-intro.gif';
+import intro_soon       from '../../assets/images/site-medical-coming-soon-intro.gif';
 
 const IndexPage = () => (
   <Layout>
@@ -121,6 +122,25 @@ const IndexPage = () => (
             <br />
             <b><a href="https://site-clinica-dentara.websitemarket.ro/">Live demo</a></b>{' '} 
             - <b><a href="https://github.com/creare-site/clinica-dentara">codul sursa</a></b> (pentru dezvoltatori).  
+
+            </p>
+        </section>
+        </div>
+
+        <br />
+
+        <div className="row">
+        <section>
+            <p>
+            <span className="image right">
+              <img src={intro_soon} alt="Site Medical, Coming Soon - Un produs Websitemarket" />
+            </span>
+            
+            <h3> <a href="https://site-medical-coming-soon.websitemarket.ro/">Site Medical - Coming Soon</a> </h3>
+            Daca esti indecis ce design sa folosesti pentru site-ul clinicii tale, avem un design simplu pentru tine.
+            <br />
+            <b><a href="https://site-medical-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
+            - <b><a href="https://github.com/creare-site/site-medical-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
 
             </p>
         </section>

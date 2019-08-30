@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 
 import intro_marketing  from '../../assets/images/site-consultant-marketing-intro.gif';
 import intro_financiar  from '../../assets/images/site-consultant-financiar-intro.gif';
+import intro_soon       from '../../assets/images/site-consultant-coming-soon-intro.gif';
 
 const IndexPage = () => (
   <Layout>
@@ -56,6 +57,25 @@ const IndexPage = () => (
             <br />
             <b><a href="https://site-consultant-financiar.websitemarket.ro/">Live demo</a></b>{' '} 
             - <b><a href="https://github.com/creare-site/site-consultant-financiar">codul sursa</a></b> (pentru dezvoltatori).  
+
+            </p>
+        </section>
+        </div>
+
+        <br />
+
+        <div className="row">
+        <section>
+            <p>
+            <span className="image left">
+              <img src={intro_soon} alt="Site Consultant - Coming Soon" />
+            </span>
+            
+            <h3> <a href="https://site-consultant-coming-soon.websitemarket.ro/">Site Consultant - Coming Soon</a> </h3>
+            In cazul in care nu esti decis ce design sa folosesti, avem o pagina simpla de coming soon pentru tine. 
+            <br />
+            <b><a href="https://site-consultant-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
+            - <b><a href="https://github.com/creare-site/site-consultant-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
 
             </p>
         </section>

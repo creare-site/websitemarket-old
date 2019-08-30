@@ -92,7 +92,7 @@ const IndexPage = () => (
 
             <article className="style3">
               <span className="image">
-                <img src={site_soon_fitness} alt="Site Fotografie - Multiverse Design" />
+                <img src={site_foto_multiverse} alt="Site Fotografie - Multiverse Design" />
               </span>
               <a href="https://site-fotografie-multiverse.websitemarket.ro/">
                 <h2>Site Fotografie - Multiverse</h2>

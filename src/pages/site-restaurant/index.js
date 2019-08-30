@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 
 import intro_story    from '../../assets/images/site-restaurant-story-intro.gif';
 import intro_reflex   from '../../assets/images/site-restaurant-reflex-intro.gif';
-import intro_soon     from '../../assets/images/site-medical-coming-soon-intro.gif';
+import intro_soon     from '../../assets/images/site-restaurant-coming-soon-intro.gif';
 
 const IndexPage = () => (
   <Layout>
@@ -12,7 +12,7 @@ const IndexPage = () => (
       <div className="inner">
 
         <h1>
-          <a href="https://github.com/creare-site/site-restaurant">Site-uri Restaurante</a>
+          <a href="https://github.com/creare-site/site-restaurant">Site Restaurant</a>
         </h1>
 
         <p>
@@ -86,7 +86,8 @@ const IndexPage = () => (
 
         <blockquote>
             <h5>WebsiteMarket</h5>
-            Hai pe net! Iti livram un <strong><a href="https://github.com/creare-site/site-restaurant">Site pentru Restaurantul</a></strong> tau in cateva ore.
+            Hai pe net! 
+            Iti livram un <strong><a href="https://github.com/creare-site/site-restaurant">site pentru restaurantul</a></strong> tau in cateva ore.
         </blockquote>
 
       </div>

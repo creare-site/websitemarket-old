@@ -7,12 +7,11 @@ export default function Nav({ onClose = () => {} }) {
       <div className="inner">
         <h2>Menu</h2>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <a href="https://blog.websitemarket.ro">Blog</a>
-          </li>
+          <li><a href="/site-medical">Site Medical</a></li>
+          <li><a href="/site-fitness">Site Fitness</a></li>
+          <li><a href="/site-restaurant">Site Restaurant</a></li>
+          <li><a href="/site-consultant">Site Consultant</a></li>
+          <li><a href="https://blog.websitemarket.ro">Blog</a></li>
         </ul>
       </div>
       <a
