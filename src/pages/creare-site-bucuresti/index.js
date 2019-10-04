@@ -2,8 +2,8 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 
-import intro_reflex from '../../assets/images/creare-site-reflex-intro.gif';
-import intro_lens   from '../../assets/images/creare-site-lens-intro.gif';
+import intro_restaurant from '../../assets/images/site-web-bucuresti-restaurant-intro.gif';
+import intro_consultant from '../../assets/images/site-web-bucuresti-consultant-intro.gif';
 
 const IndexPage = () => (
   <Layout>
@@ -69,7 +69,9 @@ const IndexPage = () => (
           care isi va desfasura activitatea in centrul <b>Bucurestiului</b>
         </p>
 
-        <hr />
+        <br />
+          <hr />
+        <br />
 
         <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> - Exemple</h2>
 
@@ -77,42 +79,41 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image left">
-              <img src={intro_lens} alt="Creare Site, Lens design - Un produs Websitemarket" />
+              <img src={intro_restaurant} alt="Site Restaurant Bucuresti - Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://creare-site-lens.websitemarket.ro/">Creare Site Lens</a> </h3>
-            <b>Lens</b> este ultimul design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare. 
-            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
+            <h3> <a href="https://site-web-bucuresti-restaurant.websitemarket.ro/">Site Restaurant</a> </h3>
             Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
             <br />
-            <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/creare-site-lens">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza <b><a href="/creare-site-bucuresti/restaurant">pagina produsului</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
         <br />
+          <hr />
+        <br />
 
         <div className="row">
         <section>
             <p>
             <span className="image right">
-              <img src={intro_reflex} alt="Creare Site, Reflex design - Un produs Websitemarket" />
+              <img src={intro_consultant} alt="Site Consultant Bucuresti - Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://creare-site-reflex.websitemarket.ro/">Creare Site Reflex</a> </h3>
-            <b>Reflex</b> este un design simplu si cu un layout impecabil pe orice dispozitiv. 
-            Utilizand acest design, iti putem crea un <a href="https://ro.wikipedia.org/wiki/Site_web">site web</a> care te poate ajuta sa devii vizbil in mediul online in doar cateva ore.
+            <h3> <a href="https://site-web-bucuresti-consultant.websitemarket.ro/">Site Consultant</a> </h3>
+            Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
             <br />
-            <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/creare-site-lens">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza <b><a href="/creare-site-bucuresti/consultant">pagina produsului</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
-        <hr />
+        <br />
+          <hr />
+        <br />
 
         <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> - Recomandarile noastre</h2>
 

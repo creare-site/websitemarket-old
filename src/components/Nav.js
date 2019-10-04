@@ -11,6 +11,7 @@ export default function Nav({ onClose = () => {} }) {
           <li><a href="/site-fitness">Site Fitness</a></li>
           <li><a href="/site-restaurant">Site Restaurant</a></li>
           <li><a href="/site-gratuit">Site Gratuit</a></li>
+          <li><a href="/creare-site-bucuresti">Site Bucuresti</a></li>
           <li><a href="https://blog.websitemarket.ro">Blog</a></li>
         </ul>
       </div>

@@ -2,8 +2,8 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 
-import intro_reflex from '../../assets/images/creare-site-reflex-intro.gif';
-import intro_lens   from '../../assets/images/creare-site-lens-intro.gif';
+import intro_restaurant from '../../assets/images/site-web-cluj-restaurant-intro.gif';
+import intro_consultant from '../../assets/images/site-web-cluj-consultant-intro.gif';
 
 const IndexPage = () => (
   <Layout>
@@ -66,7 +66,7 @@ const IndexPage = () => (
           In cazul in care beneficiezi de un buget si site-ul va prezenta o afacere pe care vrei sa o cresti in ani, poate fi o idee buna sa colaborezi 
           cu o agentie web ( cum este si WebsiteMarket ) pentru a obtine un produs de o calitate superioara. 
           De exemplu, poti vizualiza mai jos cateva modele de <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> pentru viitoarea ta afacere 
-          care isi va desfasura activitatea in centrul <b>Bucurestiului</b>
+          care isi va desfasura activitatea in centrul <b>Clujului</b>
         </p>
 
         <hr />
@@ -77,36 +77,33 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image left">
-              <img src={intro_lens} alt="Creare Site, Lens design - Un produs Websitemarket" />
+              <img src={intro_restaurant} alt="Site Restaurant Cluj - Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://creare-site-lens.websitemarket.ro/">Creare Site Lens</a> </h3>
-            <b>Lens</b> este ultimul design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare. 
-            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
+            <h3> <a href="https://site-web-cluj-restaurant.websitemarket.ro/">Site Restaurant</a> </h3>
             Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
             <br />
-            <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/creare-site-lens">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza <b><a href="/creare-site-cluj/restaurant">pagina produsului</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
         <br />
+          <hr />
+        <br />
 
         <div className="row">
         <section>
             <p>
             <span className="image right">
-              <img src={intro_reflex} alt="Creare Site, Reflex design - Un produs Websitemarket" />
+              <img src={intro_consultant} alt="Site Consultant Cluj - Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://creare-site-reflex.websitemarket.ro/">Creare Site Reflex</a> </h3>
-            <b>Reflex</b> este un design simplu si cu un layout impecabil pe orice dispozitiv. 
-            Utilizand acest design, iti putem crea un <a href="https://ro.wikipedia.org/wiki/Site_web">site web</a> care te poate ajuta sa devii vizbil in mediul online in doar cateva ore.
+            <h3> <a href="https://site-web-cluj-consultant.websitemarket.ro/">Site Consultant</a> </h3>
+            Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
             <br />
-            <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/creare-site-lens">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza <b><a href="/creare-site-cluj/consultant">pagina produsului</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>

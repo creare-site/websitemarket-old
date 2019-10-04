@@ -6,6 +6,10 @@ import intro_nowui    from '../../assets/images/site-gratuit-ui-kit-intro.gif';
 import intro_material from '../../assets/images/site-gratuit-material-intro.gif';
 import intro_paper    from '../../assets/images/site-gratuit-paper-intro.gif';
 
+import intro_fractal  from '../../assets/images/site-gratuit-fractal-intro.gif';
+import intro_photon   from '../../assets/images/site-gratuit-photon-intro.gif';
+import intro_stellar  from '../../assets/images/site-gratuit-stellar-intro.gif';
+
 const IndexPage = () => (
   <Layout>
     <div id="main">
@@ -39,13 +43,14 @@ const IndexPage = () => (
             <b>UI Kit</b> este un design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare pentru companii mici. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            <b><a href="https://site-gratuit-ui-kit.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-gratuit-ui-kit">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza <b><a href="/site-gratuit/ui-kit">pagina produsului</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
+        <br />
+          <hr />
         <br />
 
         <div className="row">
@@ -59,13 +64,14 @@ const IndexPage = () => (
             <b>Material Kit</b> este un design disponibil in galeria site-urilor de prezentare pentru companii mici. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            <b><a href="https://site-gratuit-material.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-gratuit-material">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza <b><a href="/site-gratuit/material">pagina produsului</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
+        <br />
+          <hr />
         <br />
 
         <div className="row">
@@ -79,8 +85,70 @@ const IndexPage = () => (
             <b>Paper Kit</b> este un design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare pentru companii mici. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            <b><a href="https://site-gratuit-paper.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-gratuit-paper">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza <b><a href="/site-gratuit/paper">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+
+            </p>
+        </section>
+        </div>
+
+        <br />
+          <hr />
+        <br />
+
+        <div className="row">
+        <section>
+            <p>
+            <span className="image right">
+              <img src={intro_fractal} alt="Site Gratuit, Design Fractal - Un produs Websitemarket" />
+            </span>
+            
+            <h3> <a href="https://site-gratuit-fractal.websitemarket.ro/">Site Gratuit Fractal</a> </h3>
+            <b>Fractal</b> este un design disponibil in galeria site-urilor de prezentare pentru companii mici. 
+            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
+            <br />
+            Acceseaza <b><a href="/site-gratuit/fractal">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+
+            </p>
+        </section>
+        </div>
+
+        <br />
+          <hr />
+        <br />
+
+        <div className="row">
+        <section>
+            <p>
+            <span className="image left">
+              <img src={intro_photon} alt="Site Gratuit, Design Photon - Un produs Websitemarket" />
+            </span>
+            
+            <h3> <a href="https://site-gratuit-photon.websitemarket.ro/">Site Gratuit Design Photon</a> </h3>
+            <b>Paper Kit</b> este un design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare pentru companii mici. 
+            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
+            <br />
+            Acceseaza <b><a href="/site-gratuit/photon">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+
+            </p>
+        </section>
+        </div>
+
+        <br />
+          <hr />
+        <br />
+
+        <div className="row">
+        <section>
+            <p>
+            <span className="image right">
+              <img src={intro_stellar} alt="Site Gratuit, Design Stellar - Un produs Websitemarket" />
+            </span>
+            
+            <h3> <a href="https://site-gratuit-stellar.websitemarket.ro/">Site Gratuit Fractal</a> </h3>
+            <b>Fractal</b> este un design disponibil in galeria site-urilor de prezentare pentru companii mici. 
+            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
+            <br />
+            Acceseaza <b><a href="/site-gratuit/stellar">pagina produsului</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
