@@ -2,9 +2,13 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 
+import intro_tessellate from '../../assets/images/site-prezentare-tessellate-intro.gif';
+import intro_paradigm from '../../assets/images/site-prezentare-paradigm-intro.gif';
+
 import intro_pensiune_paradigm from '../../assets/images/site-pensiune-paradigm-intro.gif';
 import intro_contabilitate_paradigm from '../../assets/images/servicii-contabile-paradigm-intro.gif';
 import intro_curatenie_paradigm from '../../assets/images/servicii-curatenie-paradigm-intro.gif';
+
 
 const IndexPage = () => (
   <Layout>
@@ -25,6 +29,48 @@ const IndexPage = () => (
 
         <h2> Exemple de <a href="https://github.com/creare-site/site-prezentare">site-uri de prezentare</a></h2>
 
+        <br />
+
+        <div className="row">
+        <section>
+            <p>
+            <span className="image left">
+              <img src={intro_paradigm} alt="Site Prezentare, Design Paradigm - Un produs Websitemarket" />
+            </span>
+            
+            <h3> <a href="/site-prezentare/paradigm/">Site Paradigm</a> </h3>
+            Acest design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare dedicat pensiunilor. 
+            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
+            <br />
+            Acceseaza <b><a href="/site-prezentare/paradigm/">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+
+            </p>
+        </section>
+        </div>
+
+        <br />
+          <hr />
+        <br />
+
+        <div className="row">
+        <section>
+            <p>
+            <span className="image right">
+              <img src={intro_tessellate} alt="Site Prezentare, Design Tessellate - Un produs Websitemarket" />
+            </span>
+            
+            <h3> <a href="/site-prezentare/tessellate/">Site Tessellate</a> </h3>
+            Acest design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare dedicat pensiunilor. 
+            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
+            <br />
+            Acceseaza <b><a href="/site-prezentare/tessellate/">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+
+            </p>
+        </section>
+        </div>
+
+        <br />
+          <hr />
         <br />
 
         <div className="row">
