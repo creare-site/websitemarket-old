@@ -43,6 +43,10 @@ import site_foto_multiverse     from '../assets/images/site-fotografie-multivers
 import site_fitness_parallelism from '../assets/images/site-fitness-parallelism.jpg';
 import site_fitness_ethereal    from '../assets/images/site-fitness-ethereal.jpg';
 
+import categ_site_gratuit      from '../assets/images/site-gratuit-websitemarket.jpg';
+import categ_site_prezentare   from '../assets/images/site-prezentare-websitemarket.jpg';
+import categ_site_bucuresti    from '../assets/images/creare-site-bucuresti-websitemarket.jpg';
+
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -90,7 +94,49 @@ const IndexPage = () => (
         <div className="row">
           <section className="tiles">
 
+            <article className="style1">
+              <span className="image">
+                <img src={categ_site_gratuit} alt="Site-uri Gratuite - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/site-gratuit/">
+                <h2>Site-uri Gratuite</h2>
+                <div className="content">
+                  <p>
+                    WebsiteMarket
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style2">
+              <span className="image">
+                <img src={categ_site_prezentare} alt="Site-uri Prezentare - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/site-prezentare/">
+                <h2>Site-uri de Prezentare</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus / pret unic)
+                  </p>
+                </div>
+              </a>
+            </article>
+
             <article className="style3">
+              <span className="image">
+                <img src={categ_site_bucuresti} alt="Creare Site Bucuresti - Produse WebsiteMarket." />
+              </span>
+              <a href="/creare-site-bucuresti/">
+                <h2>Site-uri Bucuresti</h2>
+                <div className="content">
+                  <p>
+                    Pret 99Euro (hosting inclus)
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style4">
               <span className="image">
                 <img src={site_foto_multiverse} alt="Site Fotografie - Multiverse Design" />
               </span>
@@ -104,7 +150,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style4">
+            <article className="style5">
               <span className="image">
                 <img src={site_fitness_parallelism} alt="Site Fitness - Design Parallelism " />
               </span>
@@ -118,7 +164,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style5">
+            <article className="style6">
               <span className="image">
                 <img src={site_fitness_ethereal} alt="Site Fitness - Ethereal Design" />
               </span>
@@ -132,7 +178,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style6">
+            <article className="style1">
               <span className="image">
                 <img src={site_soon_fitness} alt="Site Fitness - Coming Soon" />
               </span>
@@ -146,7 +192,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style1">
+            <article className="style2">
               <span className="image">
                 <img src={site_soon_restaurant} alt="Site Restaurant - Coming Soon" />
               </span>
@@ -160,7 +206,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style2">
+            <article className="style3">
               <span className="image">
                 <img src={site_soon_medical} alt="Site Medical - Coming Soon" />
               </span>
@@ -174,7 +220,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style3">
+            <article className="style4">
               <span className="image">
                 <img src={site_lens} alt="Site Fotografie Lens - oferit de WebsiteMarket" />
               </span>
@@ -188,7 +234,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style4">
+            <article className="style5">
               <span className="image">
                 <img src={site_story} alt="Site Restaurant Story - oferit de WebsiteMarket" />
               </span>
@@ -202,7 +248,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style5">
+            <article className="style6">
               <span className="image">
                 <img src={site_reflex} alt="Site Restaurant Reflex - oferit de WebsiteMarket" />
               </span>
@@ -216,7 +262,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style6">
+            <article className="style1">
               <span className="image">
                 <img src={site_elemental} alt="Site Medical Elemental - oferit de WebsiteMarket" />
               </span>
@@ -230,7 +276,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style1">
+            <article className="style2">
               <span className="image">
                 <img src={site_hyperbolic} alt="Site Medical Hyperbolic - oferit de WebsiteMarket" />
               </span>
@@ -244,7 +290,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style2">
+            <article className="style3">
               <span className="image">
                 <img src={site_reflex} alt="Site Medical Reflex - oferit de WebsiteMarket" />
               </span>
@@ -258,7 +304,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style3">
+            <article className="style4">
               <span className="image">
                 <img src={site_story} alt="Site Medical Story - oferit de WebsiteMarket" />
               </span>
@@ -272,7 +318,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style4">
+            <article className="style5">
               <span className="image">
                 <img src={site_split_screen} alt="Site Coming Soon - oferit de WebsiteMarket" />
               </span>
@@ -286,7 +332,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style5">
+            <article className="style6">
               <span className="image">
                 <img src={site_portofoliu} alt="Site Consultant Financiar - oferit de WebsiteMarket" />
               </span>
@@ -300,7 +346,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style6">
+            <article className="style1">
               <span className="image">
                 <img src={site_drift} alt="Site Consultant Marketing - oferit de WebsiteMarket" />
               </span>
@@ -314,7 +360,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style1">
+            <article className="style2">
               <span className="image">
                 <img src={site_lens} alt="Site Prezentare Lens - oferit de WebsiteMarket" />
               </span>
@@ -328,7 +374,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style2">
+            <article className="style3">
               <span className="image">
                 <img src={site_hologram} alt="Site Prezentare Hologram - oferit de WebsiteMarket" />
               </span>
@@ -342,7 +388,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style3">
+            <article className="style4">
               <span className="image">
                 <img src={site_tactile} alt="Site Prezentare Tactile - oferit de WebsiteMarket" />
               </span>
@@ -356,7 +402,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style4">
+            <article className="style5">
               <span className="image">
                 <img src={site_story} alt="Site Prezentare Story - oferit de WebsiteMarket" />
               </span>
@@ -370,7 +416,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style5">
+            <article className="style6">
               <span className="image">
                 <img src={site_construct} alt="Site Prezentare Construct - oferit de WebsiteMarket" />
               </span>
@@ -384,7 +430,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style6">
+            <article className="style1">
               <span className="image">
                 <img src={site_drift} alt="Site Prezentare Drift - oferit de WebsiteMarket" />
               </span>
@@ -398,7 +444,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style1">
+            <article className="style2">
               <span className="image">
                 <img src={site_wideangle} alt="Site Prezentare Wide Angle - oferit de WebsiteMarket" />
               </span>
@@ -412,7 +458,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style2">
+            <article className="style3">
               <span className="image">
                 <img src={site_elemental} alt="Site Prezentare Elemental - oferit de WebsiteMarket" />
               </span>
@@ -426,7 +472,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style3">
+            <article className="style4">
               <span className="image">
                 <img src={site_gravity} alt="Site Prezentare Gravity - oferit de WebsiteMarket" />
               </span>
@@ -440,7 +486,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style4">
+            <article className="style5">
               <span className="image">
                 <img src={site_optics} alt="Site Prezentare Optics - oferit de WebsiteMarket" />
               </span>
@@ -454,7 +500,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style5">
+            <article className="style6">
               <span className="image">
                 <img src={site_visualize} alt="Site Prezentare Visualize - oferit de WebsiteMarket" />
               </span>
@@ -468,7 +514,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style6">
+            <article className="style1">
               <span className="image">
                 <img src={site_split_screen} alt="Site Prezentare Split Screen - oferit de WebsiteMarket" />
               </span>
@@ -482,7 +528,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style1">
+            <article className="style2">
               <span className="image">
                 <img src={site_relativity} alt="Site Prezentare Relativity - oferit de WebsiteMarket" />
               </span>
@@ -496,7 +542,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style2">
+            <article className="style3">
               <span className="image">
                 <img src={site_reflex} alt="Site Prezentare Reflex - oferit de WebsiteMarket" />
               </span>
@@ -510,7 +556,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style3">
+            <article className="style4">
               <span className="image">
                 <img src={site_prototype} alt="Site Prezentare Prototype - oferit de WebsiteMarket" />
               </span>
@@ -524,7 +570,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style4">
+            <article className="style5">
               <span className="image">
                 <img src={site_portofoliu} alt="Site Prezentare Portofoliu - oferit de WebsiteMarket" />
               </span>
@@ -538,7 +584,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style5">
+            <article className="style6">
               <span className="image">
                 <img src={site_hyperbolic} alt="Site Prezentare Inverse - oferit de WebsiteMarket" />
               </span>
@@ -552,7 +598,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style6">
+            <article className="style1">
               <span className="image">
                 <img src={site_hyperbolic} alt="Site Prezentare Hyperbolic - oferit de WebsiteMarket" />
               </span>
@@ -566,7 +612,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style1">
+            <article className="style2">
               <span className="image">
                 <img src={pic1} alt="Site Servicii Cazare - oferit de WebsiteMarket" />
               </span>
@@ -580,7 +626,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style2">
+            <article className="style3">
               <span className="image">
                 <img src={pic2} alt="Site Clinica Dentara - Oferit de WebsiteMarket." />
               </span>
@@ -593,7 +639,7 @@ const IndexPage = () => (
                 </div>
               </a>
             </article>
-            <article className="style3">
+            <article className="style4">
               <span className="image">
                 <img src={pic3} alt="Site Prezentare - Oferit de WebsiteMarket" />
               </span>
@@ -606,7 +652,7 @@ const IndexPage = () => (
                 </div>
               </a>
             </article>
-            <article className="style4">
+            <article className="style5">
               <span className="image">
                 <img src={pic4} alt="Site Portofoliu - Oferit de WebsiteMarket" />
               </span>
@@ -620,7 +666,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style5">
+            <article className="style6">
               <span className="image">
                 <img src={pic5} alt="Site Prezentare - Dimension" />
               </span>
@@ -634,7 +680,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style6">
+            <article className="style1">
               <span className="image">
                 <img src={pic6} alt="Site Prezentare - Speed" />
               </span>
@@ -648,7 +694,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style1">
+            <article className="style2">
               <span className="image">
                 <img src={pic7} alt="Site Prezentare - Speed" />
               </span>
@@ -662,7 +708,7 @@ const IndexPage = () => (
               </a>
             </article>
 
-            <article className="style2">
+            <article className="style3">
               <span className="image">
                 <img src={pic8} alt="Site Prezentare - Speed" />
               </span>
