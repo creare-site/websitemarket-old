@@ -20,6 +20,26 @@ const IndexPage = () => (
         <div className="row">
         <section>
             <p>
+            <span className="image right">
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/vila-castelul-maria-apuseni-intro.gif"
+                   alt="Vila Castelul Maria - Un produs Websitemarket." />
+            </span>
+            
+            <h3> <a href="/creare-site/pensiuni/vila-castelul-maria-apuseni/">Vila Castelul Maria</a> </h3>
+            Fie că vrei să faci un popas pentru câteva zile, să-ți odihnești mintea și sufletul, fie că vrei să te oprești la o masă caldă, noi am pregătit pernele, iar bucătăresele au nevoie doar de câteva cuvinte ca să se pună pe treabă.
+            Dacă ești un iubitor de liniște și ți-e dor de un loc unde timpul stă și respiră, ai ajuns unde trebuie!
+            <br />
+            Acceseaza <b><a href="/creare-site/pensiuni/vila-castelul-maria-apuseni/">pagina pensiunii</a></b> pentru mai multe informatii.{' '} 
+
+            </p>
+        </section>
+        </div>
+
+        <hr />
+
+        <div className="row">
+        <section>
+            <p>
             <span className="image left">
               <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/pensiunea-barlogul-ursilor-intro.gif"
                    alt="Pensiunea Barlogul Ursilor  - Un produs Websitemarket." />
@@ -95,10 +115,11 @@ const IndexPage = () => (
 
         <hr />
 
-
         <blockquote>
             <h5>WebsiteMarket</h5>
-            Hai pe net! Acum este simplu.
+            Vrei sa apari listat pe WebsiteMarket sau ai nevoie de un site simplu de prezentare?
+            <br />
+            Trimite un mail la adresa <strong> <a href="mailto:hello@websitemarket.ro">hello @ websitemarket.ro</a> </strong> si iti facem un site in cateva ore.
         </blockquote>
 
       </div>
