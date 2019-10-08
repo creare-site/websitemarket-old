@@ -2,8 +2,13 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 
-import intro_reflex from '../../assets/images/creare-site-reflex-intro.gif';
-import intro_lens   from '../../assets/images/creare-site-lens-intro.gif';
+import categ_bucuresti from '../../assets/images/creare-site-hyperbolic.jpg';
+import categ_brasov from '../../assets/images/creare-site-inverse.jpg';
+import categ_cluj from '../../assets/images/creare-site-prototype.jpg';
+import categ_iasi from '../../assets/images/creare-site-reflex.jpg';
+import categ_constanta from '../../assets/images/creare-site-wide-angle.jpg';
+
+import categ_soon from '../../assets/images/creare-site-portofoliu.jpg' ;
 
 const IndexPage = () => (
   <Layout>
@@ -19,78 +24,100 @@ const IndexPage = () => (
           acest articol te poate ajuta sa te informezi in legatura cu designul viitorului tau website. 
         </p>
 
-        <hr />
-
-        <h2> Exemple de <a href="https://ro.wikipedia.org/wiki/Site_web">site</a></h2>
-
-        <div className="row">
-        <section>
-            <p>
-            <span className="image left">
-              <img src={intro_lens} alt="Creare Site, Lens design - Un produs Websitemarket" />
-            </span>
-            
-            <h3> <a href="https://creare-site-lens.websitemarket.ro/">Creare Site Lens</a> </h3>
-            <b>Lens</b> este ultimul design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare. 
-            Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
-            Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
-            <br />
-            <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/creare-site-lens">codul sursa</a></b> (pentru dezvoltatori).  
-
-            </p>
-        </section>
-        </div>
-
+        <br />
+          <hr />
         <br />
 
+
         <div className="row">
-        <section>
-            <p>
-            <span className="image right">
-              <img src={intro_reflex} alt="Creare Site, Reflex design - Un produs Websitemarket" />
-            </span>
-            
-            <h3> <a href="https://creare-site-reflex.websitemarket.ro/">Creare Site Reflex</a> </h3>
-            <b>Reflex</b> este un design simplu si cu un layout impecabil pe orice dispozitiv. 
-            Utilizand acest design, iti putem crea un <a href="https://ro.wikipedia.org/wiki/Site_web">site web</a> care te poate ajuta sa devii vizbil in mediul online in doar cateva ore.
-            <br />
-            <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/creare-site-lens">codul sursa</a></b> (pentru dezvoltatori).  
+          <section className="tiles">
 
-            </p>
-        </section>
+            <article className="style1">
+              <span className="image">
+                <img src={categ_bucuresti} alt="Site-uri Prezentare Bucuresti - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/creare-site/bucuresti/">
+                <h2>Bucuresti</h2>
+                <div className="content">
+                  <p>
+                    Site-uri de Prezentare
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style2">
+              <span className="image">
+                <img src={categ_brasov} alt="Site-uri Prezentare Brasov - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/creare-site/brasov/">
+                <h2>Brasov</h2>
+                <div className="content">
+                  <p>
+                    Site-uri de Prezentare
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style3">
+              <span className="image">
+                <img src={categ_soon} alt="Site-uri Prezentare Coming Soon - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/creare-site/coming-soon/">
+                <h2>Coming Soon</h2>
+                <div className="content">
+                  <p>
+                    Site-uri de Prezentare
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style4">
+              <span className="image">
+                <img src={categ_cluj} alt="Site-uri Prezentare Cluj - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/creare-site/cluj/">
+                <h2>Cluj</h2>
+                <div className="content">
+                  <p>
+                    Site-uri de Prezentare
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style5">
+              <span className="image">
+                <img src={categ_iasi} alt="Site-uri Prezentare Iasi - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/creare-site/iasi/">
+                <h2>Iasi</h2>
+                <div className="content">
+                  <p>
+                    Site-uri de Prezentare
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article className="style6">
+              <span className="image">
+                <img src={categ_constanta} alt="Site-uri Prezentare Constanta - Oferite de WebsiteMarket." />
+              </span>
+              <a href="/creare-site/constanta/">
+                <h2>Constanta</h2>
+                <div className="content">
+                  <p>
+                    Site-uri de Prezentare
+                  </p>
+                </div>
+              </a>
+            </article>
+
+          </section>  
         </div>
-
-        <hr />
-
-        <h2>Creare <a href="https://ro.wikipedia.org/wiki/Site_web">site</a> - Recomandarile noastre</h2>
-
-        <p>
-          Creare unui site, chiar daca pare o treaba aparent usoara, de cele mai multe ori se dovedeste o activitatea care necesita seriozitate 
-          si resurse de timp si munca din partea tuturor celor implicati. O agentie nu poate livra un site util afacerii tale fara ca tu, 
-          in calitate de client sa furnizezi informatiile care stau la baza viitorului site. 
-          Formatul, structura si informatiile trebuiesc stabilite de ambele parti printr-un proces iterativ. 
-          <br />
-          Atunci cand ne cream sau comandam un site pentru afacerea noastra, este indicat sa luam in calcul urmatoarele aspecte:
-          <br />
-          <br />
-          <ul>
-            <li>Alege atent si fara graba numele domenului</li>
-            <li>Alege un partener de incredere pentru viitorul site care iti poate asigura consultanta de care ai nevoie</li>
-            <li>Site-ul final sa fie util audientei</li>
-            <li>Structura sa fie simpla si coerenta</li>
-            <li>Daca este posbil, aloca un mic buget pentru actualizarea site-ului la un interval regulat, 6luni ar fi ideal</li>
-            <li>Comunica cu viitorii clienti prin articole de blog, preferabil utile.</li>
-          </ul>       
-        </p>
-
-        <hr />
-
-        <blockquote>
-            <h5>WebsiteMarket</h5>
-            Hai pe net! Acum este simplu.
-        </blockquote>
 
       </div>
 

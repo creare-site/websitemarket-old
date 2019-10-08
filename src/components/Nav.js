@@ -9,7 +9,7 @@ export default function Nav({ onClose = () => {} }) {
         <ul>
           <li><a href="/site-gratuit/">Site Gratuit</a></li>
           <li><a href="/site-prezentare/">Site Prezentare</a></li>
-          <li><a href="/creare-site-bucuresti/">Site Bucuresti</a></li>
+          <li><a href="/creare-site/bucuresti/">Site Bucuresti</a></li>
           <li><a href="/site-medical/">Site Medical</a></li>
           <li><a href="/site-fitness/">Site Fitness</a></li>
           <li><a href="/site-restaurant/">Site Restaurant</a></li>
