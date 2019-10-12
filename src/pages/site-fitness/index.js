@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_parallelism from '../../assets/images/site-fitness-parallelism-intro.gif';
 import intro_ethereal    from '../../assets/images/site-fitness-ethereal-intro.gif';
@@ -8,6 +9,10 @@ import intro_soon        from '../../assets/images/site-fitness-coming-soon-intr
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Fitness - Site-uri de Prezentare" 
+         description="Site-uri de prezentare pentru nisa wellness / fitness. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

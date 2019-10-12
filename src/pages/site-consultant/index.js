@@ -1,13 +1,14 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-
-import intro_marketing  from '../../assets/images/site-consultant-marketing-intro.gif';
-import intro_financiar  from '../../assets/images/site-consultant-financiar-intro.gif';
-import intro_soon       from '../../assets/images/site-consultant-coming-soon-intro.gif';
+import SEO from '../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Consultant - Site-uri de Prezentare" 
+         description="Site-uri de prezentare pentru consultanti. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 
@@ -30,7 +31,8 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image left">
-              <img src={intro_marketing} alt="Site Consultant Marketing - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-consultant-marketing-intro.gif"
+                   alt="Site Consultant Marketing - Un produs Websitemarket" />
             </span>
             
             <h3> <a href="https://site-consultant-marketing.websitemarket.ro/">Site Consultant Marketing</a> </h3>
@@ -49,7 +51,8 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image right">
-              <img src={intro_financiar} alt="Site Consultant Financiar - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-consultant-financiar-screen.png"
+                   alt="Site Consultant Financiar - Un produs Websitemarket" />
             </span>
             
             <h3> <a href="https://site-consultant-financiar.websitemarket.ro/">Site Consultant Financiar</a> </h3>
@@ -68,7 +71,8 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image left">
-              <img src={intro_soon} alt="Site Consultant - Coming Soon" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-consultant-coming-soon-screen.png"
+                   alt="Site Consultant - Coming Soon" />
             </span>
             
             <h3> <a href="https://site-consultant-coming-soon.websitemarket.ro/">Site Consultant - Coming Soon</a> </h3>
