@@ -15,9 +15,6 @@ import categ_site_pensiuni     from '../assets/images/creare-site-reflex.jpg';
 import categ_site_bucuresti    from '../assets/images/creare-site-bucuresti-websitemarket.jpg';
 import categ_site_soon         from '../assets/images/site-fitness-coming-soon.jpg';
 
-// latest ..
-import design_lens         from '../assets/images/creare-site-lens-intro.gif';
-
 const IndexPage = () => (
   <Layout>
 
@@ -27,17 +24,24 @@ const IndexPage = () => (
     <div id="main">
       <div className="inner">
         <header>
+          
           <h1>
-            Site-uri de prezentare - 49Euro
-            <br />
+            Site Prezentare 249Ron
           </h1>
+          
           <p>
-          WebsiteMarket este o agentie de webdesign, cu sediul in Constanta care isi propune sa ajute firmele mici sa se promoveze in mediul online.
-          <br />Afla de ce suntem diferiti prin ceea si cum iti putem <b><a href="/creare-site-web">crea un site web</a></b> modern in cateva ore. 
-
-          <br /><br />
-          Servicii: <strong>Site prezentare - 49Euro</strong> (pret unic). <strong>Hosting 1.99 Euro</strong> / luna.
-          <br />Email contact:  <strong> <a href="mailto:hello@websitemarket.ro"> hello [ @ ] websitemarket.ro </a> </strong>
+            Site-uri rapide cu un design modern. 
+            Exemple: <a href="https://site-medical-hyperbolic.websitemarket.ro/"><strong>clinica</strong> medicala</a>, 
+            {' '}<a href="https://site-fitness-ethereal.websitemarket.ro/">site <strong>fitness</strong></a>,
+            {' '}<a href="https://site-restaurant-reflex.websitemarket.ro/"><strong>restaurant</strong></a>,
+            {' '}<a href="https://site-firma-coming-soon.websitemarket.ro/">pagina <strong>coming soon</strong></a>, 
+            {' '}<a href="https://site-consultant-financiar.websitemarket.ro/"><strong>consultant</strong></a> 
+          </p>
+          
+          <p>
+            Servicii: <strong>Hosting 9Ron</strong> / luna, <strong>Site - 249Ron</strong> (pret unic). 
+            <br />
+            Hai sa stam de vorba: <strong> <a href="mailto:hello@websitemarket.ro"> hello [ @ ] websitemarket.ro </a> </strong>
           </p>
         </header>
 
@@ -47,15 +51,22 @@ const IndexPage = () => (
           <section>
             <p>
               <span className="image left">
-                <img src={design_lens} alt="Creare Site, Lens design - Un produs Websitemarket" />
+                <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/emag-site-prezentare-pensiune-x1000-intro.gif" 
+                     alt="Creare Site, Lens design - Un produs Websitemarket" />
               </span>
               
-              <h2> <a href="/creare-site/design/lens">Site Prezentare Lens</a> - Lens</h2>
-              <b>Lens</b> este ultimul design disponibil in galeria site-urilor de prezentare. 
-              Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
-              Produsul, ca mai toate produsele WebsiteMarket este open-source, adica oricine poate vedea codul sursa.
-              <br />
-              <b><a href="https://creare-site-lens.websitemarket.ro/">Live demo</a></b>
+              <h2> 
+                Oferte
+              </h2>
+              <p>
+                <strong>Promo Site</strong> - Include Domeniu (RO) si Hosting 1an - <strong>299Ron</strong>.
+                <br />
+                <strong>Promo Hosting</strong> - Include Domeniu (RO) si Pagina Coming Soon - <strong>199Ron</strong>.
+                <br />
+                <br />
+                <strong>Interesat?</strong>: trimite o comanda la adresa de mail 
+                {' '}<strong><a href="mailto:hello@websitemarket.ro"> hello [ @ ] websitemarket.ro </a></strong>. 
+              </p>
           </p>
           </section>
         </div>
@@ -87,7 +98,7 @@ const IndexPage = () => (
                 <h2>Site-uri de Prezentare</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro
+                    Pret 249Ron
                   </p>
                 </div>
               </a>
@@ -101,7 +112,7 @@ const IndexPage = () => (
                 <h2>Website Design</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro 
+                    Pret 249Ron 
                   </p>
                 </div>
               </a>
@@ -115,7 +126,7 @@ const IndexPage = () => (
                 <h2>Site Medical</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro 
+                    Pret 249Ron 
                   </p>
                 </div>
               </a>
@@ -129,7 +140,7 @@ const IndexPage = () => (
                 <h2>Site Restaurant</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro 
+                    Pret 249Ron 
                   </p>
                 </div>
               </a>
@@ -143,7 +154,7 @@ const IndexPage = () => (
                 <h2>Site Fitness</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro 
+                    Pret 249Ron 
                   </p>
                 </div>
               </a>
@@ -157,7 +168,7 @@ const IndexPage = () => (
                 <h2>Site Pensiuni</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro 
+                    Pret 249Ron 
                   </p>
                 </div>
               </a>
@@ -171,7 +182,7 @@ const IndexPage = () => (
                 <h2>Site Bucuresti</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro 
+                    Pret 249Ron 
                   </p>
                 </div>
               </a>
@@ -185,7 +196,7 @@ const IndexPage = () => (
                 <h2>Coming Soon</h2>
                 <div className="content">
                   <p>
-                    Pret 49Euro
+                    Pret 249Ron
                   </p>
                 </div>
               </a>
