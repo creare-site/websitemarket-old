@@ -1,10 +1,13 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import pic1 from '../../assets/images/01.jpg';
-
+import SEO from '../../components/SEO'
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Prezentare - Portofoliu " 
+        description="Site de prezentare portofoliu. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

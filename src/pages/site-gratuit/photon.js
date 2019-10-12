@@ -1,11 +1,16 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_photon  from '../../assets/images/site-gratuit-photon-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Gratuit - Site de Prezentare cu design Photon" 
+         description="Site simplu de prezentare, gratuit. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

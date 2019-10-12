@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO'
 
 import categ_site_gratuit      from '../assets/images/site-gratuit-websitemarket.jpg';
 import categ_site_prezentare   from '../assets/images/site-prezentare-websitemarket.jpg';
@@ -17,10 +18,12 @@ import categ_site_soon         from '../assets/images/site-fitness-coming-soon.j
 // latest ..
 import design_lens         from '../assets/images/creare-site-lens-intro.gif';
 
-import { Link } from 'gatsby';
-
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site-uri de Prezentare - Servicii Hosting" 
+         description="Hai pe net! Acum este simplu cu servciul nostru." />
+
     <div id="main">
       <div className="inner">
         <header>

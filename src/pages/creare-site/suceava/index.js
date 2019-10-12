@@ -1,12 +1,17 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 import intro_reflex from '../../../assets/images/creare-site-reflex-intro.gif';
 import intro_lens   from '../../../assets/images/creare-site-lens-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site Suceava - Site-uri de Prezentare" 
+        description="Site-uri de prezentare pentru Suceava. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

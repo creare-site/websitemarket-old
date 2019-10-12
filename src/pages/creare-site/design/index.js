@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 import design_construct    from '../../../assets/images/creare-site-construct.jpg';
 import design_dimension    from '../../../assets/images/creare-site-dimension.jpg';
@@ -34,6 +35,9 @@ import design_wideangle    from '../../../assets/images/creare-site-wideangle.jp
 
 const IndexPage = () => (
   <Layout>
+  <SEO title="Creare Site - Design Predefinit " 
+       description="Site-uri de Prezentare cu design predefinit. Un produs WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

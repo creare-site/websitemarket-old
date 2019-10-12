@@ -1,11 +1,16 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_fractal  from '../../assets/images/site-gratuit-fractal-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Gratuit - Site de Prezentare cu design Fractal" 
+         description="Site simplu de prezentare, gratuit. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

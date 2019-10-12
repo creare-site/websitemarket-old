@@ -1,11 +1,16 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_material  from '../../assets/images/site-gratuit-material-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+  
+    <SEO title="Site Gratuit - Site de Prezentare cu design Material Kit" 
+         description="Site simplu de prezentare, gratuit. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

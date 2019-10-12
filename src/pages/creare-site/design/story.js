@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site - Design Story" 
+        description="Site Prezentare rapid cu design Story. Un produs WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

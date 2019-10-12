@@ -46,11 +46,9 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Phantom' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Hai pe net! Acum este simplu si accesibil cu serviciul nostru.' }
               ]}
             >
-              <html lang="en" />
             </Helmet>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               <div id="wrapper">

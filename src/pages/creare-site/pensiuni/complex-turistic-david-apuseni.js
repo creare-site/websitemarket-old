@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Complexul Turistic David - Cazare Apuseni" 
+         description="Site de prezentare Complexul Turistic David. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

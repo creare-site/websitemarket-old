@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site Cazare Mamaia - Site de Prezentare" 
+        description="Site de prezentare unitate cazare in Mamaia. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

@@ -1,11 +1,16 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 import intro_site  from '../../../assets/images/site-web-bucuresti-consultant-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site Consultant Bucuresti - Site de Prezentare" 
+         description="Site de prezentare pentru actvitati de consultanta in Bucuresti. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 import intro_firma      from '../../../assets/images/site-firma-coming-soon-intro.gif';
 import intro_fitness    from '../../../assets/images/site-fitness-coming-soon-intro.gif';
@@ -11,6 +12,10 @@ import intro_soon       from '../../../assets/images/site-coming-soon-intro.gif'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO  title="Creare Site Coming Soon - Site-uri de Prezentare" 
+          description="Site-uri de prezentare Coming Soon. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

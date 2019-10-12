@@ -1,12 +1,17 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 import intro_restaurant from '../../../assets/images/site-web-cluj-restaurant-intro.gif';
 import intro_consultant from '../../../assets/images/site-web-cluj-consultant-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site Cluj - Site-uri de Prezentare" 
+         description="Site-uri de prezentare pentru Cluj. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

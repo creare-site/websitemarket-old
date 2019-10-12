@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Casa Pescarilor - Cazare Delta Dunarii" 
+        description="Site de prezentare pensiune turistica Casa Pescarilor. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

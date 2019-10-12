@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Pensiunea Roua Muntelui - Cazare Apuseni" 
+         description="Site de prezentare Pensiunea Roua Muntelui. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 
@@ -25,6 +30,8 @@ const IndexPage = () => (
           <b><a href="https://pensiune-roua-muntelui-apuseni.websitemarket.ro/">demo</a></b>{', '} 
           <b><a href="https://github.com/creare-site/demo-pensiune-roua-muntelui-apuseni/">codul sursa</a></b>{', '} 
           <b><a href="https://www.youtube.com/watch?v=V7hixMwcl6M">video</a></b> 
+          <br />
+          Articol de blog: <a href="https://medium.com/@websitemarketro/creare-site-prezentare-pensiunea-roua-muntelui-websitemarket-b225e5c136fd">Creare Site Prezentare - Pensiunea Roua Muntelui</a> 
         </p>
 
         <hr />

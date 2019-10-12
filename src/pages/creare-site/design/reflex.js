@@ -1,10 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
-import pic1 from '../../../assets/images/01.jpg';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site - Design Reflex" 
+         description="Site Prezentare rapid cu design Reflex. Un produs WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

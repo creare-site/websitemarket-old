@@ -1,12 +1,17 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO'
 
 import intro_reflex from '../assets/images/creare-site-reflex-intro.gif';
 import intro_lens   from '../assets/images/creare-site-lens-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site Web - Ce variante avem" 
+         description="Ce variante avem cand avem nevoie de un site care sa ne ajute in afaceri." />
+
         <div id="main">
             
             <div className="inner">

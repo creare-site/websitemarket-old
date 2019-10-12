@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Vila Giulia - Cazare Apuseni" 
+        description="Site de prezentare Vila Giulia. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 
@@ -26,6 +31,8 @@ const IndexPage = () => (
           <b><a href="https://vila-giulia-apuseni.websitemarket.ro/">demo</a></b>{', '} 
           <b><a href="https://github.com/creare-site/demo-vila-giulia-apuseni/">codul sursa</a></b>{', '} 
           <b><a href="https://www.youtube.com/watch?v=W37g2wG7hTw">video</a></b> 
+          <br />
+          Articol de blog: <a href="https://medium.com/@websitemarketro/creare-site-prezentare-vila-giulia-apuseni-websitemarket-7a689c56a5ea">Creare Site Prezentare - Vila Giulia Apuseni</a> 
         </p>
 
         <hr />

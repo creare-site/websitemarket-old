@@ -1,11 +1,16 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_site  from '../../assets/images/servicii-curatenie-paradigm-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Servicii Curatenie - Design Paradigm" 
+        description="Site de prezentare servicii curatenie design Paradigm. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

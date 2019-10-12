@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_elemental  from '../../assets/images/site-medical-elemental-intro.gif';
 import intro_hyperbolic from '../../assets/images/site-medical-hyperbolic-intro.gif';
@@ -11,6 +12,10 @@ import intro_soon       from '../../assets/images/site-medical-coming-soon-intro
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Medical - Site-uri de Prezentare" 
+         description="Site-uri de prezentare pentru nisa medicala. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

@@ -1,5 +1,6 @@
 module.exports = {
   siteTitle: 'WebsiteMarket - Site-uri de Prezentare', // <title>
+  siteDescription: 'Hai pe net! Acum este simplu si accesibil cu serviciul nostru.',
   manifestName: 'WebsiteMarket',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',

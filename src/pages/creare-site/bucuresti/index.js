@@ -1,12 +1,17 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 import intro_restaurant from '../../../assets/images/site-web-bucuresti-restaurant-intro.gif';
 import intro_consultant from '../../../assets/images/site-web-bucuresti-consultant-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site Bucuresti - Site-uri de Prezentare" 
+         description="Site-uri de prezentare pentru Bucuresti. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

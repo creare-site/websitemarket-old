@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="River Resort Baisoara - Cazare Apuseni" 
+        description="Site de prezentare River Resort Baisoara. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 
@@ -25,6 +30,8 @@ const IndexPage = () => (
           <b><a href="https://pensiunea-river-resort-apuseni.websitemarket.ro/">demo</a></b>{', '} 
           <b><a href="https://github.com/creare-site/demo-pensiunea-river-resort-apuseni/">codul sursa</a></b>{', '} 
           <b><a href="https://www.youtube.com/watch?v=IMfhuAJp_1w">video</a></b> 
+          <br />
+          Articol de blog: <a href="https://medium.com/@websitemarketro/creare-site-prezentare-river-resort-websitemarket-73c3ce3f21f8">Creare Site Prezentare - River Resort Baisoara</a> 
         </p>
 
         <hr />

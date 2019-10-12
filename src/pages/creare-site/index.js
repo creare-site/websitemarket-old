@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import categ_bucuresti from '../../assets/images/creare-site-hyperbolic.jpg';
 import categ_brasov from '../../assets/images/creare-site-inverse.jpg';
@@ -12,6 +13,10 @@ import categ_soon from '../../assets/images/creare-site-portofoliu.jpg' ;
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site - Site-uri de Prezentare" 
+        description="Site-uri simple de prezentare. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

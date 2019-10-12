@@ -1,12 +1,14 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-
-import intro_reflex from '../../assets/images/creare-site-reflex-intro.gif';
-import intro_lens   from '../../assets/images/creare-site-lens-intro.gif';
+import SEO from '../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Firma - Site-uri de Prezentare" 
+        description="Site-uri de prezentare pentru companii mici. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

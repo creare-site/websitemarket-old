@@ -1,11 +1,16 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_site  from '../../assets/images/site-prezentare-tessellate-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Prezentare - Design Tessellate" 
+        description="Site de prezentare cu design Tessellate. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

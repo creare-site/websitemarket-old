@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_nowui    from '../../assets/images/site-gratuit-ui-kit-intro.gif';
 import intro_material from '../../assets/images/site-gratuit-material-intro.gif';
@@ -12,6 +13,10 @@ import intro_stellar  from '../../assets/images/site-gratuit-stellar-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Gratuit - Site-uri de Prezentare" 
+        description="Site-uri simple de prezentare gratuite. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

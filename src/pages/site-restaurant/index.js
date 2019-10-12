@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import SEO from '../../components/SEO'
 
 import intro_story    from '../../assets/images/site-restaurant-story-intro.gif';
 import intro_reflex   from '../../assets/images/site-restaurant-reflex-intro.gif';
@@ -8,6 +9,10 @@ import intro_soon     from '../../assets/images/site-restaurant-coming-soon-intr
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Site Restaurant - Site-uri de Prezentare" 
+         description="Site-uri de prezentare restaurante si cafenele. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

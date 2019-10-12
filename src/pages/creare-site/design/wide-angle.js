@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+  <SEO  title="Creare Site - Design Wide Angle" 
+        description="Site Prezentare rapid cu design Wide Angle. Un produs WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

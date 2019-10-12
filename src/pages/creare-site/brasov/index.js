@@ -1,12 +1,17 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 import intro_restaurant from '../../../assets/images/site-web-brasov-restaurant-intro.gif';
 import intro_consultant from '../../../assets/images/site-web-brasov-consultant-intro.gif';
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Creare Site Brasov - Site-uri de Prezentare" 
+         description="Site-uri de prezentare pentru Brasov. Produse digitale WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 

@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Layout from '../../../components/Layout';
+import SEO from '../../../components/SEO'
 
 const IndexPage = () => (
   <Layout>
+
+    <SEO title="Pensiunea Barlogul Ursilor - Cazare Apuseni" 
+         description="Site de prezentare pensiune turistica Barlogul Ursilor. Produs digital WebsiteMarket." />
+
     <div id="main">
       <div className="inner">
 
@@ -26,6 +31,8 @@ const IndexPage = () => (
           <b><a href="https://pensiunea-barlogul-ursilor.websitemarket.ro/">demo</a></b>{', '} 
           <b><a href="https://github.com/creare-site/demo-pensiunea-barlogul-ursilor/">codul sursa</a></b>{', '} 
           <b><a href="https://www.youtube.com/watch?v=H0IR6aJdkjQ">video</a></b> 
+          <br />
+          Articol de blog: <a href="https://medium.com/@websitemarketro/creare-site-prezentare-pensiunea-barlogul-ursilor-websitemarket-492dbe1fabe1">Creare Site Prezentare - Pensiunea Barlogul Ursilor</a> 
         </p>
 
         <hr />
