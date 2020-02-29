@@ -2,8 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO'
-
-import intro_photon  from '../../assets/images/site-gratuit-photon-intro.gif';
+import CtaBottom from '../../components/CtaBottom'
 
 const IndexPage = () => (
   <Layout>
@@ -36,7 +35,8 @@ const IndexPage = () => (
             <section>
                 <p>
                     <span className="image">
-                    <img src={intro_photon} alt="Site Gratuit, Design Photon - Un produs Websitemarket" />
+                    <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-gratuit-photon-intro.gif"
+                         alt="Site Gratuit, Design Photon - Un produs Websitemarket" />
                     </span>
                 </p>
             </section>
@@ -53,11 +53,7 @@ const IndexPage = () => (
 
         <br />
 
-        <blockquote>
-            <h5>WebsiteMarket</h5>
-            Hai pe net! Acum este simplu utilizand un <a href="https://github.com/creare-site/site-gratuit-photon">Site Gratuit</a> {' '}
-             oferit de WebsiteMarket.
-        </blockquote>
+        <CtaBottom/>
 
       </div>
 

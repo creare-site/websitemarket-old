@@ -3,13 +3,6 @@ import React from 'react';
 import Layout from '../../../components/Layout';
 import SEO from '../../../components/SEO'
 
-import intro_firma      from '../../../assets/images/site-firma-coming-soon-intro.gif';
-import intro_fitness    from '../../../assets/images/site-fitness-coming-soon-intro.gif';
-import intro_medical    from '../../../assets/images/site-medical-coming-soon-intro.gif';
-import intro_restaurant from '../../../assets/images/site-restaurant-coming-soon-intro.gif';
-import intro_consultant from '../../../assets/images/site-consultant-coming-soon-intro.gif';
-import intro_soon       from '../../../assets/images/site-coming-soon-intro.gif';
-
 const IndexPage = () => (
   <Layout>
 
@@ -30,117 +23,102 @@ const IndexPage = () => (
 
         <hr />
 
-        <h2> Exemple de <a href="https://github.com/creare-site/coming-soon">Site-uri Coming Soon</a></h2>
-
-        <br />
-
         <div className="row">
         <section>
             <p>
             <span className="image left">
-              <img src={intro_fitness} alt="Coming Soon - Site Fitness. Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-fitness-coming-soon-intro.gif" 
+                   alt="Coming Soon - Sala Fitness. Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://site-fitness-coming-soon.websitemarket.ro/">Site Fitness - Coming Soon</a> </h3>
+            <h3> <a href="/creare-site/coming-soon/fitness/">Site Fitness - Coming Soon</a> </h3>
             Pagina de coming soon cu un design minimalist. Un produs open-source WebsiteMarket.
             <br />
-            <b><a href="https://site-fitness-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-fitness-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza pagina <b><a href="/creare-site/coming-soon/fitness/">Site Fitness - Coming Soon</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
+        <br />
+          <hr />
         <br />
         
         <div className="row">
         <section>
             <p>
             <span className="image right">
-              <img src={intro_medical} alt="Coming Soon - Site Medical. Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-medical-coming-soon-screen.png" 
+                   alt="Coming Soon - Site Medical. Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://site-medical-coming-soon.websitemarket.ro/">Site Medical - Coming Soon</a> </h3>
+            <h3> <a href="/creare-site/coming-soon/medical/">Site Medical - Coming Soon</a> </h3>
             Pagina de coming soon cu un design minimalist. Un produs open-source WebsiteMarket.
             <br />
-            <b><a href="https://site-medical-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-medical-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza pagina <b><a href="/creare-site/coming-soon/medical/">Site Medical - Coming Soon</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
+        <br />
+          <hr />
         <br />
 
         <div className="row">
         <section>
             <p>
             <span className="image left">
-              <img src={intro_firma} alt="Coming Soon - Site Firma. Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-firma-coming-soon-screen.png" 
+                   alt="Coming Soon - Site Firma. Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://site-firma-coming-soon.websitemarket.ro/">Site Firma - Coming Soon</a> </h3>
+            <h3> <a href="/creare-site/coming-soon/firma/">Site Firma - Coming Soon</a> </h3>
             Pagina de coming soon cu un design minimalist. Un produs open-source WebsiteMarket.
             <br />
-            <b><a href="https://site-firma-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-firma-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza pagina <b><a href="/creare-site/coming-soon/firma/">Site Firma - Coming Soon</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
+         <br />
+          <hr />
         <br />
 
         <div className="row">
         <section>
             <p>
             <span className="image right">
-              <img src={intro_restaurant} alt="Coming Soon - Site Restaurant. Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-restaurant-coming-soon-screen.png"
+                   alt="Coming Soon - Site Restaurant. Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://site-restaurant-coming-soon.websitemarket.ro/">Site Restaurant - Coming Soon</a> </h3>
+            <h3> <a href="/creare-site/coming-soon/restaurant/">Site Restaurant - Coming Soon</a> </h3>
             Pagina de coming soon cu un design minimalist. Un produs open-source WebsiteMarket.
             <br />
-            <b><a href="https://site-restaurant-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-restaurant-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza pagina <b><a href="/creare-site/coming-soon/restaurant/">Site Restaurant - Coming Soon</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
         </div>
 
+        <br />
+          <hr />
         <br />
 
         <div className="row">
         <section>
             <p>
             <span className="image left">
-              <img src={intro_consultant} alt="Coming Soon - Site Consultant. Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-consultant-coming-soon-screen.png"
+                   alt="Coming Soon - Site Consultant. Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="https://site-consultant-coming-soon.websitemarket.ro/">Site Consultant - Coming Soon</a> </h3>
+            <h3> <a href="/creare-site/coming-soon/consultant/">Site Consultant - Coming Soon</a> </h3>
             Pagina de coming soon cu un design minimalist. Un produs open-source WebsiteMarket.
             <br />
-            <b><a href="https://site-consultant-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-consultant-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
-
-            </p>
-        </section>
-        </div>
-
-        <br />
-
-        <div className="row">
-        <section>
-            <p>
-            <span className="image right">
-              <img src={intro_soon} alt="Coming Soon - Site Prezentare. Un produs Websitemarket" />
-            </span>
-            
-            <h3> <a href="https://site-coming-soon.websitemarket.ro/">Site Restaurant - Coming Soon</a> </h3>
-            Pagina de coming soon cu un design minimalist. Un produs open-source WebsiteMarket.
-            <br />
-            <b><a href="https://site-coming-soon.websitemarket.ro/">Live demo</a></b>{' '} 
-            - <b><a href="https://github.com/creare-site/site-coming-soon">codul sursa</a></b> (pentru dezvoltatori).  
+            Acceseaza pagina <b><a href="/creare-site/coming-soon/consultant/">Site Consultant - Coming Soon</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>

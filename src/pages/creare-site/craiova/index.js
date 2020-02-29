@@ -3,9 +3,6 @@ import React from 'react';
 import Layout from '../../../components/Layout';
 import SEO from '../../../components/SEO'
 
-import intro_reflex from '../../../assets/images/creare-site-reflex-intro.gif';
-import intro_lens   from '../../../assets/images/creare-site-lens-intro.gif';
-
 const IndexPage = () => (
   <Layout>
 
@@ -82,7 +79,8 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image left">
-              <img src={intro_lens} alt="Creare Site, Lens design - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/creare-site-lens-intro.gif"
+                   alt="Creare Site, Lens design - Un produs Websitemarket" />
             </span>
             
             <h3> <a href="https://creare-site-lens.websitemarket.ro/">Creare Site Lens</a> </h3>
@@ -103,7 +101,8 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image right">
-              <img src={intro_reflex} alt="Creare Site, Reflex design - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/creare-site-reflex-intro.gif" 
+                   alt="Creare Site, Reflex design - Un produs Websitemarket" />
             </span>
             
             <h3> <a href="https://creare-site-reflex.websitemarket.ro/">Creare Site Reflex</a> </h3>

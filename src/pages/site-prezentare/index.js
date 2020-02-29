@@ -2,14 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO'
-
-import intro_tessellate from '../../assets/images/site-prezentare-tessellate-intro.gif';
-import intro_paradigm from '../../assets/images/site-prezentare-paradigm-intro.gif';
-
-import intro_pensiune_paradigm from '../../assets/images/site-pensiune-paradigm-intro.gif';
-import intro_contabilitate_paradigm from '../../assets/images/servicii-contabile-paradigm-intro.gif';
-import intro_curatenie_paradigm from '../../assets/images/servicii-curatenie-paradigm-intro.gif';
-
+import CtaBottom from '../../components/CtaBottom'
 
 const IndexPage = () => (
   <Layout>
@@ -21,7 +14,7 @@ const IndexPage = () => (
       <div className="inner">
 
         <h1>
-          <a href="https://github.com/creare-site/site-prezentare">Site-uri de Prezentare</a>
+          <a href="https://github.com/creare-site/site-prezentare/">Site-uri de Prezentare</a>
         </h1>
 
         <p>
@@ -32,22 +25,19 @@ const IndexPage = () => (
 
         <hr />
 
-        <h2> Exemple de <a href="https://github.com/creare-site/site-prezentare">site-uri de prezentare</a></h2>
-
-        <br />
-
         <div className="row">
         <section>
             <p>
             <span className="image left">
-              <img src={intro_paradigm} alt="Site Prezentare, Design Paradigm - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-prezentare-paradigm-intro.gif"
+                   alt="Site Prezentare, Design Paradigm - Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="/site-prezentare/paradigm/">Site Paradigm</a> </h3>
+            <h3> <a href="/site-prezentare/paradigm/">Site Prezentare Paradigm</a> </h3>
             Acest design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare dedicat pensiunilor. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            Acceseaza <b><a href="/site-prezentare/paradigm/">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+            Acceseaza pagina <b><a href="/site-prezentare/paradigm/">Site-ului de Prezentare Paradigm</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
@@ -61,14 +51,15 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image right">
-              <img src={intro_tessellate} alt="Site Prezentare, Design Tessellate - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-prezentare-tessellate-screen.png"
+                   alt="Site Prezentare, Design Tessellate - Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="/site-prezentare/tessellate/">Site Tessellate</a> </h3>
+            <h3> <a href="/site-prezentare/tessellate/">Site Prezentare Tessellate</a> </h3>
             Acest design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare dedicat pensiunilor. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            Acceseaza <b><a href="/site-prezentare/tessellate/">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+            Acceseaza pagina <b><a href="/site-prezentare/tessellate/">Site-ului de Prezentare Tessellate</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
@@ -82,14 +73,15 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image left">
-              <img src={intro_pensiune_paradigm} alt="Site Prezentare Pensiune, Design Paradigm - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-pensiune-paradigm-screen.png"
+                   alt="Site Prezentare Pensiune, Design Paradigm - Un produs Websitemarket" />
             </span>
             
-            <h3> <a href="/site-prezentare/pensiune-paradigm/">Site Pensiune</a> </h3>
+            <h3> <a href="/site-prezentare/pensiune-paradigm/">Site Prezentare Pensiune</a> </h3>
             Acest design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare dedicat pensiunilor. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            Acceseaza <b><a href="/site-prezentare/pensiune-paradigm/">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+            Acceseaza pagina <b><a href="/site-prezentare/pensiune-paradigm/">Site-ului Prezentare Pensiune</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
@@ -103,14 +95,15 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image right">
-              <img src={intro_contabilitate_paradigm} alt="Site Servicii Contabile, Design Paradigm - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/servicii-contabile-paradigm-screen.png"
+                   alt="Site Servicii Contabile, Design Paradigm - Un produs Websitemarket" />
             </span>
             
             <h3> <a href="/site-prezentare/servicii-contabile-paradigm/">Site Servicii Contabile</a> </h3>
             Acest design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare dedicat serviciilor. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            Acceseaza <b><a href="/site-prezentare/servicii-contabile-paradigm/">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+            Acceseaza pagina <b><a href="/site-prezentare/servicii-contabile-paradigm/">Site-ului Servicii Contabile</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
@@ -124,14 +117,15 @@ const IndexPage = () => (
         <section>
             <p>
             <span className="image left">
-              <img src={intro_curatenie_paradigm} alt="Site Servicii Curatenie, Design Paradigm - Un produs Websitemarket" />
+              <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/servicii-curatenie-paradigm-screen.png"
+                   alt="Site Servicii Curatenie, Design Paradigm - Un produs Websitemarket" />
             </span>
             
             <h3> <a href="/site-prezentare/servicii-curatenie-paradigm/">Site Servicii Curatenie</a> </h3>
             Acest design disponibil in galeria <a href="https://ro.wikipedia.org/wiki/Site_web">site</a>-urilor de prezentare dedicat serviciilor. 
             Design-ul este unul minimalist, cu un look perfect pe orice dispozitiv. 
             <br />
-            Acceseaza <b><a href="/site-prezentare/servicii-curatenie-paradigm/">pagina produsului</a></b> pentru mai multe informatii.{' '} 
+            Acceseaza pagina <b><a href="/site-prezentare/servicii-curatenie-paradigm/">Site-ului Servicii Curatenie</a></b> pentru mai multe informatii.{' '} 
 
             </p>
         </section>
@@ -141,10 +135,7 @@ const IndexPage = () => (
           <hr />
         <br />
 
-        <blockquote>
-            <h5>WebsiteMarket</h5>
-            Hai pe net! Acum este simplu utilizand un <strong><a href="https://github.com/creare-site/site-prezentare">Site-uri de Prezentare</a></strong> oferite de WebsiteMarket.
-        </blockquote>
+        <CtaBottom/>
 
       </div>
 

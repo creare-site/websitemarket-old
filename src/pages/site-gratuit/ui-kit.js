@@ -2,8 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO'
-
-import intro_uikit  from '../../assets/images/site-gratuit-ui-kit-intro.gif';
+import CtaBottom from '../../components/CtaBottom'
 
 const IndexPage = () => (
   <Layout>
@@ -36,7 +35,8 @@ const IndexPage = () => (
             <section>
                 <p>
                     <span className="image">
-                    <img src={intro_uikit} alt="Site Gratuit, Design UI Kit - Un produs Websitemarket" />
+                    <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-gratuit-ui-kit-intro.gif"
+                         alt="Site Gratuit, Design UI Kit - Un produs Websitemarket" />
                     </span>
                 </p>
             </section>
@@ -46,18 +46,24 @@ const IndexPage = () => (
 
         <div className="row">
             <p>
-                In cazul in care intampini dificultati, nu ezita sa ne contactezi pe adresa de mail {' '}
-                <strong><a href="mailto:hello@websitemarket.ro">hello @ websitemarket.ro</a></strong>
+                Alte resurse:
+                <ul>
+                    <li>
+                        Cod sursa <a href="https://github.com/creare-site/site-gratuit-ui-kit">Site Gratuit UI Kit</a>
+                    </li>
+                    <li>
+                        Articol de Blog <a href="https://medium.com/@websitemarketro/site-gratuit-site-prezentare-cu-design-now-ui-websitemarket-8db36766959f">Site Gratuit — Site Prezentare cu design Now UI</a>
+                    </li>
+                    <li>
+                        Prezentare Video <a href="https://www.youtube.com/watch?v=LwldEcGhMAw">Site Gratuit UI Kit</a>
+                    </li>
+                </ul>  
             </p>
         </div>
 
         <br />
 
-        <blockquote>
-            <h5>WebsiteMarket</h5>
-            Hai pe net! Acum este simplu utilizand un <a href="https://github.com/creare-site/site-gratuit-ui-kit">Site Gratuit</a> {' '}
-             oferit de WebsiteMarket.
-        </blockquote>
+        <CtaBottom/>
 
       </div>
 
