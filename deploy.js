@@ -2,8 +2,8 @@ var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
  
 var config = {
-    user: "Sm0ke@websitemarket.ro", 
-    password: "Fr4654646BBBdaddJJhngTT",                            
+    user: "--USER--", 
+    password: "--PASS--",                            
     host: "ftp.websitemarket.ro",
     port: 21,
     localRoot: __dirname + '/public',
