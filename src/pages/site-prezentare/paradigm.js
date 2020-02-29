@@ -2,8 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO'
-
-import intro_site  from '../../assets/images/site-prezentare-paradigm-intro.gif';
+import CtaBottom from '../../components/CtaBottom'
 
 const IndexPage = () => (
   <Layout>
@@ -29,7 +28,8 @@ const IndexPage = () => (
             <section>
                 <p>
                     <span className="image">
-                    <img src={intro_site} alt="Site Prezentare, Design Paradigm - Un produs Websitemarket" />
+                    <img src="https://raw.githubusercontent.com/creare-site/static/master/produse/site-prezentare-paradigm-intro.gif"
+                         alt="Site Prezentare, Design Paradigm - Un produs Websitemarket" />
                     </span>
                 </p>
             </section>
@@ -46,11 +46,7 @@ const IndexPage = () => (
 
         <br />
 
-        <blockquote>
-            <h5>WebsiteMarket</h5>
-            Hai pe net! Acum este simplu utilizand un <a href="https://github.com/creare-site/site-prezentare-paradigm/">Site de prezentare</a> {' '}
-             oferit de WebsiteMarket.
-        </blockquote>
+        <CtaBottom/>
 
       </div>
 

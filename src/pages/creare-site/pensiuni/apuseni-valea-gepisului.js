@@ -20,6 +20,7 @@ const IndexPage = () => (
           <br />
           Aici, în inima Bihorului, într-un decor pur și simplu feeric, ți-am pregătit un loc al tău precum o casă departe de casă în care să fii tratat mai mult decât un oaspete, bucurându-te atât de facilitățile pe care ți le oferim dar și de frumusețea naturii.
         </p>
+
         <span className="image main">
             <img alt="Pensiunea Valea Gepisului, prezentare in format GIF. Un produs WebsiteMarket."
                  src="https://raw.githubusercontent.com/creare-site/static/master/produse/pensiune-apuseni-valea-gepisului-intro.gif"/>
